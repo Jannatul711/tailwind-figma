@@ -81,9 +81,9 @@
           </div>
           <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div class="hidden sm:mb-8 sm:flex sm:justify-center">
-              <div class="relative rounded-full px-10 py-1 mx-90 text-xl leading-6 text-white ring-1 ring-black ">
+              <button class="relative rounded-full px-10 py-1 mx-90 text-xl leading-6 text-white ring-1 ring-black ">
                 FusionApes Presents 
-              </div>
+              </button>
             </div>
             <div class="text-center">
               <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">BAKED <span class="bg-transparent">AI</span></h1>
@@ -105,22 +105,22 @@
         <p class="mt-4 text-lg leading-8 text-black">Covert your words into imaginations</p>
       
         <form>
-          <input type="text" placeholder="Describe your imagination " id="search-bar" class="rounded-l-full">
+          <input type="text" placeholder="Describe your imagination" class="rounded-l-full search-bar">
           <button class="text-black bg-amber-500 rounded-r-full border border-amber-500 px-3 py-1">Generate </button>
         </form>
 
         <h4 class="">Prompt suggestions</h4>
 
-        <form>
-        <p type="text" id="first-suggestion" class="bg-amber-500 rounded-full">Suggestion here</p>
-        <p type="text" id="second-suggestion" class="bg-amber-500 rounded-full">Suggestion here</p>
-       </form>
+        <div class="button-section">
+        <button class="bg-amber-500 rounded-full first-suggestion">Suggestion here</button>
+        <button class="bg-amber-500 rounded-full second-suggestion">Suggestion here</button>
+        </div>
 
-       <form>
-        <p type="text" id="second-suggestion" class="bg-amber-500 rounded-full">Suggestion here</p>
-        <p type="text" id="third-suggestion" class="text-black text-left bg-amber-500 rounded-full py-1 pr-16 px-5 m-2">Suggestion here</p>
-        <p type="text" id="third-suggestion" class="text-black text-left bg-amber-500 rounded-full py-1 pr-16 px-5 m-2">Suggestion here</p>
-      </form>
+        <div class="button-section">
+        <button class="bg-amber-500 rounded-full second-suggestion">Suggestion here</button>
+        <button class="text-black text-left bg-amber-500 rounded-full py-1 pr-16 px-5 m-2">Suggestion here</button>
+        <button class="text-black text-left bg-amber-500 rounded-full py-1 pr-16 px-5 m-2">Suggestion here</button>
+        </div>
       </div>
 <!-- form section close -->
 
@@ -177,11 +177,6 @@
           <p class="text-base font-semibold text-gray-900">prompt: describe your prompt here...</p>
         </div>
 
-            <div class="items-center text-center mt-12">
-              <p class=" text-xs leading-8 text-center text-gray-500">Loved It? Create yours</p>
-            <button><a href="#" class="px-11 py-1 text-center rounded-full text-sm font-semibold bg-amber-500 text-black">Log in</a></button>
-            </div>
-
         </div>
 
         <div class="group relative">
@@ -200,6 +195,12 @@
         </div>
       </div>
     </div>
+    
+    <div class="items-center text-center mt-12">
+      <p class=" text-xs leading-8 text-center text-gray-500">Loved It? Create yours</p>
+    <button><a href="#" class="px-11 py-1 text-center rounded-full text-sm font-semibold bg-amber-500 text-black">Log in</a></button>
+    </div>
+
   </div>
  </div>
  <!-- card section close -->
@@ -311,48 +312,60 @@
           <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
           </div>
           <dt class="mt-4 font-semibold text-amber-500">Heading</dt>
-          <p class="mt-2 leading-7 text-white">Lorem Ipsum</p>
-          <p class="mt-2 leading-7 text-white">Lorem Ipsum</p>
-          <p class="mt-2 leading-7 text-white">Lorem Ipsum</p>
-          <p class="mt-2 leading-7 text-white">Lorem Ipsum</p>
+            <ul>
+              <li class="mt-2 leading-7 text-white"><a href="#">Lorem Ipsum</a></li> 
+              <li class="mt-2 leading-7 text-white"><a href="#">Lorem Ipsum</a></li> 
+              <li class="mt-2 leading-7 text-white"><a href="#">Lorem Ipsum</a></li> 
+              <li class="mt-2 leading-7 text-white"><a href="#">Lorem Ipsum</a></li> 
+            </ul>
         </div>
         <div class="flex flex-col items-start">
           <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
           </div>
           <dt class="mt-4 font-semibold text-amber-500">Heading</dt>
-          <p class="mt-2 leading-7 text-white">Lorem Ipsum</p>
-          <p class="mt-2 leading-7 text-white">Lorem Ipsum</p>
-          <p class="mt-2 leading-7 text-white">Lorem Ipsum</p>
-          <p class="mt-2 leading-7 text-white">Lorem Ipsum</p>
-          <p class="mt-2 leading-7 text-white">Lorem Ipsum</p>
-          <p class="mt-2 leading-7 text-white">Lorem Ipsum</p>
+            <ul>
+              <li class="mt-2 leading-7 text-white"><a href="#">Lorem Ipsum</a></li> 
+              <li class="mt-2 leading-7 text-white"><a href="#">Lorem Ipsum</a></li> 
+              <li class="mt-2 leading-7 text-white"><a href="#">Lorem Ipsum</a></li> 
+              <li class="mt-2 leading-7 text-white"><a href="#">Lorem Ipsum</a></li> 
+              <li class="mt-2 leading-7 text-white"><a href="#">Lorem Ipsum</a></li> 
+              <li class="mt-2 leading-7 text-white"><a href="#">Lorem Ipsum</a></li> 
+              
+            </ul>
         </div>
         <div class="flex flex-col items-start">
+
           <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
           </div>
+
           <dt class="mt-4 font-semibold text-amber-500">Heading</dt>
-          <p class="mt-2 leading-7 text-white">Lorem Ipsum</p>
-          <p class="mt-2 leading-7 text-white">Lorem Ipsum</p>
-          <p class="mt-2 leading-7 text-white">Lorem Ipsum</p>
-          <p class="mt-2 leading-7 text-white">Lorem Ipsum</p>
-          <p class="mt-2 leading-7 text-white">Lorem Ipsum</p>
+            <ul>
+              <li class="mt-2 leading-7 text-white"><a href="#">Lorem Ipsum</a></li> 
+              <li class="mt-2 leading-7 text-white"><a href="#">Lorem Ipsum</a></li> 
+              <li class="mt-2 leading-7 text-white"><a href="#">Lorem Ipsum</a></li> 
+              <li class="mt-2 leading-7 text-white"><a href="#">Lorem Ipsum</a></li> 
+              <li class="mt-2 leading-7 text-white"><a href="#">Lorem Ipsum</a></li> 
+            </ul>
+           
         </div>
       </dl>
     </div>
   
 
   <div class="flex">
-  <p class="mt-11 mr-4 leading-7 text-amber-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>   
-  <p class="mt-11 mr-4 leading-7 text-amber-500">Lorem ipsum </p>  
-  <p class="mt-11 mr-4 leading-7 text-amber-500">Lorem ipsum </p>
-  <p class="mt-11 mr-4 leading-7 text-amber-500">Lorem ipsum </p>   
-  <p class="mt-11 mr-4 leading-7 text-amber-500">Lorem ipsum </p>  
+    <ul class="flex">
+    <li class="mt-11 mr-4 leading-7 text-amber-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>   
+    <li class="mt-11 mr-4 leading-7 text-amber-500">Lorem ipsum </li>  
+    <li class="mt-11 mr-4 leading-7 text-amber-500">Lorem ipsum </li>
+    <li class="mt-11 mr-4 leading-7 text-amber-500">Lorem ipsum </li>   
+    <li class="mt-11 mr-4 leading-7 text-amber-500">Lorem ipsum </li>  
+    </ul>
 
   <div class="mt-10 ml-7 text-left">
-    <button class="px-2 py-3 mx-2 rounded-lg text-sm font-semibold bg-white text-black">icon</button>
-    <button class="px-2 py-3 mx-2 rounded-lg text-sm font-semibold bg-white text-black">icon</button>
-    <button class="px-2 py-3 mx-2 rounded-lg text-sm font-semibold bg-white text-black">icon</button>
-    <button class="px-2 py-3 mx-2 rounded-lg text-sm font-semibold bg-white text-black">icon</button>
+    <button class="px-2 py-3 mx-2 rounded-lg text-sm font-semibold bg-white text-black"><a href="#">icon</a></button>
+    <button class="px-2 py-3 mx-2 rounded-lg text-sm font-semibold bg-white text-black"><a href="#">icon</a></button>
+    <button class="px-2 py-3 mx-2 rounded-lg text-sm font-semibold bg-white text-black"><a href="#">icon</a></button>
+    <button class="px-2 py-3 mx-2 rounded-lg text-sm font-semibold bg-white text-black"><a href="#">icon</a></button>
   </div>
   
   </div>
